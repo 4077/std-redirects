@@ -1,0 +1,35 @@
+// head {
+@import "../../../../../../../modules-vendor/fed/js-jquery/ui/-/less/icons.less";
+
+@__nodeId__: ~"std_redirects__main_grid_controls_enabled";
+// }
+
+.@{__nodeId__} {
+
+    .button {
+        cursor: pointer;
+        float: left;
+        width: 33px;
+        height: 33px;
+
+        .icon {
+            margin: 8px;
+            width: 16px;
+            height: 16px;
+            background-image: url('../../../images/icons_454545.png');
+
+            .ui-icon-radio-off;
+        }
+
+        &.checked {
+
+            .icon {
+                .ui-icon-bullet;
+            }
+        }
+
+        &.hover {
+            background-color: #FFFFFF;
+        }
+    }
+}
